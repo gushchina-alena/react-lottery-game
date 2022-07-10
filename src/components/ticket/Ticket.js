@@ -16,7 +16,7 @@ const Ticket = () => {
 
     useEffect(()=> {
         const randOne = new Set();
-        const randTwo = Math.floor(Math.random() * 8) + 1; 
+        const randTwo = Math.floor(Math.random() * 2) + 1; 
 
         while (randOne.size !== 8) {
             randOne.add(Math.floor(Math.random() * 19) + 1);
